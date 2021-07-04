@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    font-weight: 300;
+}
+section{
+    min-height: 100vh;
+}
+h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.2rem;
+}
+#computerScreen{
+    width: 60%;
+}
+.space{
+    letter-spacing: 1px;
+}
+.big{
+    font-size: 2rem;
+}
+.small{
+    font-size: .9rem;
+}
+.orange{
+    color: hsl(17, 81%, 52%);
+}
+
+.dark{
+    background:hsl(193, 63%, 18%);
+    color: hsl(0, 0%, 100%);
+}
+.light{
+    background: hsl(0, 0%, 100%);
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.shadow{
+    box-shadow: 0px 5px 15px rgb(44, 44, 44);
+}
+.free{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: hsl(175, 95%, 43%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+input{
+    background: hsl(210, 11%, 71%);
+}
+
+.nav-link,
+.noDeco{
+    color: hsl(0, 0%, 45%) !important;
+    text-decoration: none;
+}
+.buttonPro{
+    border-radius: 50px;
+    padding: 0 2rem;
+    border: none;
+    background: hsl(175, 95%, 43%);
+    color: hsl(0, 0%, 100%);
+}
+.btn-primary{
+    border-radius: 50px;
+}
+main{
+    background: hsl(0, 0%, 96%);
+}
+
+
+.form-select{
+    color: hsl(0, 1%, 72%);
+}
+
+.orangeButton{
+    background: hsl(17, 81%, 52%);
+    border: none;
+}
+.smallArrow{
+    width: 1rem;
+}
+
+.whiteButton{
+    background: hsl(0, 0%, 100%);
+    border-color: hsl(17, 81%, 52%);
+    color: hsl(17, 81%, 52%);
+    text-decoration: none;
+}
+.buttonLink{
+    text-decoration: none;
+}
+
+.step2,
+.step3,
+#estimationButton{
+    display: none;
+}

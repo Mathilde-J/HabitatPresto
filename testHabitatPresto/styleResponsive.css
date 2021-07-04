@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+
+    figure.figure.row {
+        display: block;
+        width: 100%;
+    }
+    #computerScreen{
+        width: 100%;
+    }
+    div.container.larger{
+        width: 100% !important;
+    }
+    .buttonPro{
+        padding: .7rem;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    nav div.container{
+        justify-content: center !important;
+    }
+    .col.d-flex.align-items-center.justify-content-center.dark.space{
+        padding: 3rem 0;
+    }
+}
